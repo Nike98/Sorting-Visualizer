@@ -1,7 +1,7 @@
 export function getQuickSortAnimations(array) {
     let animations = [];
     let auxillaryArray = array.slice();
-    quickSort(auxillaryArray, animations);
+    quickSort(auxillaryArray, 0, auxillaryArray.length - 1, animations);
     const javaScriptSortedArray = array.slice().sort((a, b) => a - b);
     console.log("quick sort works correctly? ", arraysAreEqual(javaScriptSortedArray, auxillaryArray));
     array = auxillaryArray;

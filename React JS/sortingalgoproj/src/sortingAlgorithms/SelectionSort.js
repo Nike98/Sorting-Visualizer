@@ -13,7 +13,7 @@ function selectionSort(auxillaryArray, animations) {
 
     for (let i = 0; i < N - 1; i++) {
         // Finding the index of the smallest element in the Unsorted Array
-        let midIdx = i;
+        let minIdx = i;
 
         for (let j = i + 1; j < N; j++) {
             animations.push(["comparison1", j, minIdx]);

@@ -12,7 +12,7 @@ function insertionSort(auxillaryArray, animations) {
     const N = auxillaryArray.length;
     for (let i = 1; i < N; i++) {
         let key = auxillaryArray[i];
-        let j = i = 1;
+        let j = i - 1;
         animations.push(["comparison1", j, i]);
         animations.push(["comparison2", j, i]);
         while (j >= 0 && auxillaryArray[j] > key) {
