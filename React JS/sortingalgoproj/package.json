@@ -20,7 +20,7 @@
     }
   },
 
-  "homepage": "http://Nike98.github.io/Sorting-Visualizer",
+  "homepage": "http://Nike98.github.io/Sorting-Visualizer/React JS/sortingalgoproj",
   "scripts": {
     "watch": "npm-watch",
     "start": "react-scripts start",
